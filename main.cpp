@@ -18,7 +18,6 @@ void autoView(){
 }
 
 
-
 void update(int a){
     (isAuto)?autoView():blank();
     glutPostRedisplay();
@@ -78,7 +77,7 @@ void fullView(){
     axisDraw();
     skyView();
     grassView();
-    anyText("Created by: @tamzid, @shohan, @torab, @tarek", 0.2f, -0.17f, 103, 72, 70);
+    anyText("Created by: @shahil @shiam @lamia", 0.2f, -0.17f, 103, 72, 70);
 
 
 
